@@ -12,12 +12,12 @@ jobs:
     strategy:
       matrix:
         include:
-          - os: ubuntu-latest
+          - os: sh-ubuntu-latest
             arch: amd64
             target: windows
             cc: x86_64-w64-mingw32-gcc
             ext: .exe
-          - os: ubuntu-20.04
+          - os: sh-ubuntu-latest
             arch: amd64
             target: linux
           - os: macos-latest
