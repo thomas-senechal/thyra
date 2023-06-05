@@ -2,6 +2,7 @@ name: API
 
 on:
   push:
+  workflow_dispatch:
 
 env:
   NODE_SERVER: BUILDNET
