@@ -8,7 +8,7 @@ runs:
   using: "composite"
   steps:
     - name: installing linux dependencies
-      if: startsWith(inputs.os, 'ubuntu-')
+      if: startsWith(inputs.os, 'sh-ubuntu-')
       shell: bash
       run: |
         sudo apt update
